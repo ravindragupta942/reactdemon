@@ -10,6 +10,7 @@ import {
 import About from './About';
 import store from './store'
 import { Provider } from 'react-redux'
+import Contact from './Contact';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "about",
     element: <About />
+  },
+  {
+    path: "contact",
+    element: <Contact />
   },
 ]);
 
